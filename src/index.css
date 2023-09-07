@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* ------------------------------------Global Css -----------------------------*/
+.bg-background-gradient {
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+.bg-header-gradient {
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+/*------------------------------------- Global Css Styles ------------------------------------*/
+
+
+
+
+
+
+
+
+/* ----------------------------------------Header Css ---------------------------------------------*/
+.active-nav{
+  color: #019EBF;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    padding: 3px 5px;
+    scale: 1.1;
+  }
+  
+.active-nav-mobile{
+  color: #019EBF;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 2px;
+  padding: 3px 5px;
+  scale: 1.1;
+}
+
+.icon-hover {
+  box-shadow: 0 0 10px rgba(0, 158, 191, 0.8);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.6s, box-shadow 0.3s;
+  z-index: 100;
+  /* Other styling properties */
+}
+
+
+
+@keyframes slide-top {
+  0% {
+    transform: translateX(100%);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.sidebar {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.button{
+  /* width: 150px; */
+  height: 40px;
+  border: 2px solid #019EBF;
+  padding: 2px 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0, 158, 191, 0.7);
+}
+/* ----------------------------------------End Header Css ---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+  
+  /* -----------------------------------Hero Compinent Css-------------------------------------- */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+                url('./assets/innovative.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    /* background-attachment: fixed; */
+  }
+  
+  
+  
+  .glow-blue {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150%;
+    height: 150%;
+    pointer-events: none;
+  
+    background: radial-gradient(
+      ellipse at center,
+      rgba(0, 204, 255, 0.212) 0%,
+      rgba(0, 0, 255, 0) 70%
+    );
+    animation: glow 4s ease-in-out infinite alternate;
+    /* z-index: -1; */
+  }
+  
+
+  .glow-red {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(255, 0, 0, 0.189) 0%,
+      rgba(255, 0, 0, 0) 70%
+    );
+    animation: glow 4s ease-in-out infinite alternate;
+    /* z-index: -2; */
+  }
+  
+  
+  /* Button Component */
+  .btn{
+    background-color: #019EBF;
+    font-weight: 700;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+
+
+  /*-------------------------------------- End Hero Component--------------------------------------------------- */
+  
+  
+
+  /*-------------------------------------- Portfolio section------------------------------------------ */
+  .overlay-portfolio{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(255, 0, 0, 0.267), rgba(0, 128, 0, 0));
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+
+}
+
+  .glow-text{
+    text-shadow:
+    /* 0 0 0 #fff, */
+    /* 0 0 0 #019EBF, */
+    /* 0 0 0 #fff, */
+    /* 0 0 0px #019EBF, */
+    /* 0 0 0px #019EBF, */
+    0 0 0px #019EBF,
+    0 0 0px #019EBF,
+    0 0 2px #019EBF;
+  }
+
+  .glow-div{
+    box-shadow: 0 0 12px rgba(0, 158, 191, 0.7);
+  }
+
+  .icon-shadow{
+    box-shadow: 0 0 6px rgba(0, 158, 191, 0.7);
+    border-radius: 5px;
+  }
+
+  .glow{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    border-radius: 5px;
+  }
+    /*--------------------------------------End  Portfolio section------------------------------------------ */
+
+
+    /*---------------------------------------------- Card Component---------------------------------------------------------- */
+    
+    
+    
+    
+    
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08); /* Slightly whitish color with opacity */
+      backdrop-filter: blur(10px); /* Apply blur effect to create the glass effect */
+      border-radius: 20px; /* Adjust border-radius as needed */
+      overflow: hidden; /* Hide overflow to prevent unwanted artifacts */
+      padding: 1rem; /* Add padding for spacing */
+       box-shadow: 0 0 12px rgba(0, 158, 191, 0.7);
+    }
+    
+    .glass-card img {
+      display: block;
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      
+      background-color: rgba(255, 255, 255, 0.2); /* Slightly whitish color with opacity for circle */
+    }
+    
+    .glass-card h5,
+    .glass-card p {
+      color: white;
+      text-align: center; /* Center-align text */
+    }
+    
+    .glass-card h5 {
+      margin-top: 1rem;
+    }
+    
+    .glass-card p {
+      margin-top: 0.5rem;
+      opacity: 0.8;
+    }
+
+
+
+    
+    .service-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+      url('./assets/tech1.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      pointer-events: none;
+    }
+
+
+
+/* Clients */
+    .clients-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+      url('./assets/tech1.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      pointer-events: none;
+    }
+
+
+    /* Choose */
+    .choose-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+      url('./assets/tech.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      pointer-events: none;
+    }
+
+
+
+
+
+
+/* Contact Form */
+    .form-container{
+      background: rgba(255, 255, 255, 0.08); /* Slightly whitish color with opacity */
+      backdrop-filter: blur(10px); /* Apply blur effect to create the glass effect */
+      border-radius: 20px; /* Adjust border-radius as needed */
+      overflow: hidden; /* Hide overflow to prevent unwanted artifacts */
+      /* padding: 1rem; */
+       box-shadow: 0 0 12px rgba(0, 158, 191, 0.7);
+
+    }
+
+    .input{
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px 15px;
+      background: rgba(255, 255, 255, 0.174);
+      /* background: #019fbf; */
+    }
+    .input:focus{
+      border:1px solid  #019fbf;
+      box-shadow: 0 0 9px rgba(0, 159, 191, 0.694);
+      box-sizing: border-box;
+    }
+
+
+    .para{
+      font-size: 11px;
+      font-weight: 100;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    

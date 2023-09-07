@@ -1,0 +1,17 @@
+/* Custom Slick Theme Styles */
+/* Hide the arrows */
+.slick-prev,
+.slick-next {
+  display: none !important; /* Hide the arrows */
+}
+/* Dots */
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 12px; /* Adjust the dot size */
+  opacity: 0.5; /* Reduce dot opacity */
+  color: #96a2b5; /* Change dot color */
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1; /* Increase opacity for active dots */
+  color: #019EBF; /* Change active dot color */
+}
