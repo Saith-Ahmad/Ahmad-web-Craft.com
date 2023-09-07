@@ -59,11 +59,11 @@ const Portfolio = () => {
           <p className='text-secondary'>My name is </p> <h3 className='ms-3 font-bold text-2xl md:text-4xl font-inter'>"Saith Ahmad"</h3>
           </div>
 
-          <div className='flex items-center text-lg relative mt-5 overflow-hidden min-h-[65px]'>
-          <p className='text-secondary'>I'm a </p> <h3 className='absolute left-7 w-full ms-5 font-black md:text-5xl text-3xl font-inter text-primary glow-text'>{typedText}</h3>
+          <div className='flex items-start text-lg relative mt-5 min-h-[65px] flex-col md:h-[80px] h-[65px]'>
+          <p className='text-secondary'>I'm a </p> <h3 className='absolute top-7 w-full font-black md:text-5xl sm:text-4xl text-3xl font-inter text-primary glow-text'>{typedText}</h3>
           </div>
 
-          <p className='text-secondary mt-5'>Greetings! I'm a skilled React.js developer and frontend expert, crafting top-notch solutions to enhance your online presence. With an eye for stunning user experiences, I'll turn your ideas into attractive, functional websites.
+          <p className='text-secondary mt-5 text-lg'>Greetings! I'm a skilled React.js developer and frontend expert, crafting top-notch solutions to enhance your online presence. With an eye for stunning user experiences, I'll turn your ideas into attractive, functional websites.
 
           But it doesn't stop there. As an SEO expert, I boost organic traffic using cutting-edge strategies, ensuring high search engine rankings. This means more visibility and targeted visitors for you. Join me in creating captivating digital experiences that drive growth and establish your brand as a digital leader. Let's bring your vision to life! Contact me today.</p>
           <div className='flex gap-2 mt-3 '>

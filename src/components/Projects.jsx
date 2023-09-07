@@ -34,7 +34,7 @@ const Projects = () => {
   return (
 
 
-     <div className='mx-auto container px-5 md:px-10 overflow-hidden h-[500px] md:h-[500px] mt-10' >
+     <div className='mx-auto container px-5 md:px-10 overflow-hidden h-[500px] md:h-[500px] mt-20' >
       <h2 className='text-3xl md:text-4xl font-inter font-black'>Recent Projects</h2>
       <div className='h-[4px] w-[100px] bg-primary ms-3 mt-1 mb-4'></div>
 
