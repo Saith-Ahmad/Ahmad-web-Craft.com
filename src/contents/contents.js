@@ -14,8 +14,7 @@ import client4 from "../assets/client4.jpg"
 import youtube from "../assets/youtube.jpg"
 import netflix from "../assets/netflix.jpg"
 import banking from "../assets/banking.jpg"
-import restaurant from "../assets/restaurant.png"
-import estate from "../assets/estate.png"
+import estate from "../assets/estate.jpg"
 import chat from "../assets/chatapp.png"
 
 export const navLinks = [
@@ -155,11 +154,6 @@ export const navLinks = [
       icon : estate,
       link : "https://reactjs-real-estate.netlify.app/"
     },
-    // {
-    //   title : "Restaurant website",
-    //   icon : restaurant,
-    //   link : "https://www.youtube.com/"
-    // },
     {
       title : "Chat App",
       icon : chat,

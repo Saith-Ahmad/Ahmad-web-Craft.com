@@ -22,10 +22,10 @@ const Hero = () => {
 
         <div className='flex text-white mt-5 items-center flex-col md:flex-row'>
           <div className='flex'>
-            <motion.img src={pic1} whileHover={{scale:0.8}} alt="sara" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary '/>
-            <motion.img src={pic2} whileHover={{scale:0.8}}  alt="john" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4'/>
-            <motion.img src={pic3} whileHover={{scale:0.8}}  alt="Aron" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4'/>
-            <motion.img src={pic4} whileHover={{scale:0.8}}  alt="Finch" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4'/>
+            <motion.img src={pic1} whileHover={{scale:0.8}} alt="sara" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary ' loading='lazy'/>
+            <motion.img src={pic2} whileHover={{scale:0.8}}  alt="john" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4' loading='lazy'/>
+            <motion.img src={pic3} whileHover={{scale:0.8}}  alt="Aron" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4' loading='lazy'/>
+            <motion.img src={pic4} whileHover={{scale:0.8}}  alt="Finch" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4' loading='lazy'/>
           </div>
           <p className='text-md font-semibold md:w-[220px] leading-5 ms-2 text-center md:text-left font-poppins'>"Trusted by Businesses Across the World"</p>
         </div>

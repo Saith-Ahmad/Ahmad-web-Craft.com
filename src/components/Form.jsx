@@ -140,6 +140,7 @@ const Form = () => {
             src={connect}
             alt="contact-us"
             className="md:h-[440px] h-[200px] object-contain"
+            loading="lazy"
           />
         </div>
       </div>

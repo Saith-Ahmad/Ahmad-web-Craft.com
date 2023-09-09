@@ -48,7 +48,7 @@ const Projects = () => {
              boxShadow: "0 0 10px rgba(0, 158, 191, 0.7)",
            }}
            >
-               <div className='overflow-hidden'><img src={item.icon} alt="youtube" className='w-full h-[250px] object-cover'/></div>
+               <div className='overflow-hidden'><img src={item.icon} alt="youtube" className='w-full h-[250px] object-cover' loading='lazy'/></div>
                <div className='bg-primary h-[100px] flex flex-col items-center justify-center'>
                   <h4 className='text-2xl font-poppins text-center'>{item.title}</h4>
                   <motion.button whileHover={{scale:1.1}} className='text-green-900 font-poppins text-sm hover:font-bold' onClick={() => handleProjectClick(item.link)}>Checkout</motion.button>

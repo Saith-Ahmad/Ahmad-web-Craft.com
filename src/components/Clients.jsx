@@ -51,7 +51,7 @@ const Clients = () => {
                   <p className='font-poppins text-secondary text-md'>{testimonial}</p>
                 </div>
                 <div className='bg-primary h-[100px] mt-10 relative wavy flex flex-col justify-center items-center'>
-                  <img src={clientImage} alt="client" className='w-[60px] h-[60px] object-contain rounded-full absolute -top-10 left-[50%-60px]' />
+                  <img src={clientImage} alt="client" className='w-[60px] h-[60px] object-contain rounded-full absolute -top-10 left-[50%-60px]' loading='lazy'/>
                   <p className='text-xl font-bold font-poppins text-white '>{client}</p>
                   <p className='text-md font-semibold font-poppins text-green-900'>{nationality}</p>
                 </div>

@@ -67,13 +67,13 @@ const Portfolio = () => {
 
           But it doesn't stop there. As an SEO expert, I boost organic traffic using cutting-edge strategies, ensuring high search engine rankings. This means more visibility and targeted visitors for you. Join me in creating captivating digital experiences that drive growth and establish your brand as a digital leader. Let's bring your vision to life! Contact me today.</p>
           <div className='flex gap-2 mt-3 '>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={react} alt="react" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={react} alt="react" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
           <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={redux} alt="redux" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={node} alt="node" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={tailwind} alt="tailwind" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={js} alt="js" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={css} alt="css" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
-          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={html} alt="html" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={node} alt="node" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={tailwind} alt="tailwind" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={js} alt="js" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={css} alt="css" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
+          <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={html} alt="html" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ const Portfolio = () => {
       {/* Right Div */}
       <div className='md:w-[40%] flex flex-col w-full mt-5 md:mt-0 justify-center items-center'>
         <div className='rounded-full w-full flex justify-center'>
-          <img src={dp} alt="" className='rounded-full w-full border-solid border-2 border-primary max-w-[500px]' />
+          <img src={dp} alt="" className='rounded-full w-full border-solid border-2 border-primary max-w-[500px]' loading='lazy'/>
         </div>
         <Socials/>
         
