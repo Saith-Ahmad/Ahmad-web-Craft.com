@@ -56,11 +56,11 @@ const Portfolio = () => {
           <hr className='w-[50px] h-[2px] bg-primary border-none'/>
 
           <div className='flex items-center mt-2'>
-          <p className='text-secondary'>My name is </p> <h3 className='ms-3 font-bold text-2xl md:text-4xl font-inter'>"Saith Ahmad"</h3>
+          <p className='text-secondary'>My name is </p> <h3 className='ms-3 font-black text-2xl md:text-4xl font-inter '>"Saith Ahmad"</h3>
           </div>
 
-          <div className='flex items-start text-lg relative mt-5 min-h-[65px] flex-col md:h-[80px] h-[65px]'>
-          <p className='text-secondary'>I'm a </p> <h3 className='absolute top-7 w-full font-black md:text-5xl sm:text-4xl text-3xl font-inter text-primary glow-text'>{typedText}</h3>
+          <div className='flex items-start text-lg relative mt-1 min-h-[65px] flex-col md:h-[80px] h-[65px]'>
+          <p className='text-secondary'>I'm a </p> <h3 className='absolute top-7 w-full font-black md:text-5xl sm:text-4xl text-[32px] font-inter text-primary glow-text'>{typedText}</h3>
           </div>
 
           <p className='text-secondary mt-5 text-lg'>Greetings! I'm a skilled React.js developer and frontend expert, crafting top-notch solutions to enhance your online presence. With an eye for stunning user experiences, I'll turn your ideas into attractive, functional websites.
