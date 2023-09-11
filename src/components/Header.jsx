@@ -16,7 +16,7 @@ const Header = () => {
     setActive(index);
     setToogle(false);
     if (id === 'blog') {
-      window.open('https://youtube.com', '_blank');
+      window.open('https://blogs.ahmadwebcraft.com/', '_blank');
     } else {
       setActive(index);
       const section = document.getElementById(id);

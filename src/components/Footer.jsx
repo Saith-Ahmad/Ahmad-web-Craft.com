@@ -9,7 +9,7 @@ const Footer = () => {
 
     const handleNavLinkClick = (id) => {
         if (id === 'blog') {
-          window.open('https://youtube.com', '_blank');
+          window.open('https://blogs.ahmadwebcraft.com/', '_blank');
         } else {
           const section = document.getElementById(id);
           if (section) {
