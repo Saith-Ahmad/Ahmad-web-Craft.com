@@ -65,7 +65,7 @@ const Portfolio = () => {
 
           <p className='text-secondary mt-5 text-lg'>Greetings! I'm a skilled React.js developer and frontend expert, crafting top-notch solutions to enhance your online presence. With an eye for stunning user experiences, I'll turn your ideas into attractive, functional websites.
 
-          But it doesn't stop there. As an SEO expert, I boost organic traffic using cutting-edge strategies, ensuring high search engine rankings. This means more visibility and targeted visitors for you. Join me in creating captivating digital experiences that drive growth and establish your brand as a digital leader. Let's bring your vision to life! Contact me today.</p>
+          But it doesn't stop there. As an SEO expert, I boost organic traffic using cutting-edge strategies, ensuring high search engine rankings. This means more visibility and targeted visitors for you. Join me in creating captivating digital experiences that drive growth and establish your brand as a digital leader. Let's bring your vision to reality! Contact me today.</p>
           <div className='flex gap-2 mt-3 '>
           <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={react} alt="react" className='glow w-[30px] h-[30px] object-contain p-[3px]' loading='lazy'/>
           <motion.img whileTap={{rotate : 180}} whileHover={{scale : 1.2 , boxShadow: "0 0 6px rgba(255, 255, 255, 0.9)"}} src={redux} alt="redux" className='glow w-[30px] h-[30px] object-contain p-[3px]'/>
