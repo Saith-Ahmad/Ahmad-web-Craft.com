@@ -74,6 +74,7 @@ const Form = () => {
             ref={form}
             onSubmit={formik.handleSubmit}
             className="flex flex-col items-start font-poppins"
+            netlify
           >
             <input
               type="text"
