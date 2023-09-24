@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import dp from "../assets/dp.jpeg"
+import dp from "../assets/dp3.png"
 import Socials from './Socials';
 import { motion } from 'framer-motion';
 import react from "../assets/react.png"
