@@ -72,7 +72,7 @@ export const navLinks = [
     {
       icon : development,
       title : "Digital Marketing",
-      description : "Experience the power of our digital marketing prowess. We craft compelling campaigns, harness SEO magic, and leverage social media wizardry to expand your reach, captivate audiences, and spark business growth."
+      description : "Experience the power of our digital marketing process. We craft compelling campaigns, harness SEO magic, and leverage social media wizardry to expand your reach, captivate audiences, and spark business growth."
     },
 
   ]

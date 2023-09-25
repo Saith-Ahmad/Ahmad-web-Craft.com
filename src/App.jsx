@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='bg-background-gradient' id="home">
+    <div className='bg-background-gradient overflow-x-hidden' id="home">
       <Header />
       <div className='container mx-auto  flex flex-col justify-center items-center text-white p-0'>
         <Hero />
