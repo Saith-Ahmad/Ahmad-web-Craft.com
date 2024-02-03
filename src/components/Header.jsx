@@ -15,15 +15,12 @@ const Header = () => {
   const handleMobileClick = (id, index) => {
     setActive(index);
     setToogle(false);
-    if (id === 'blog') {
-      window.open('https://blogs.ahmadwebcraft.com/', '_blank');
-    } else {
       setActive(index);
       const section = document.getElementById(id);
       if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
       }
-    }
+    
   };
 
   useEffect(() => {

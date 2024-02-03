@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Choose from './components/Choose';
-import Clients from './components/Clients';
+// import Clients from './components/Clients';
 import Form from './components/Form';
 import Footer from './components/Footer';
 
@@ -22,7 +22,7 @@ const App = () => {
           <div id='services'><Services /></div>
           <div id='projects'><Projects /></div>
           <Choose />
-          <Clients />
+          {/* <Clients /> */}
           <Form />
           <Footer />
         </div>

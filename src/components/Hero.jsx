@@ -16,8 +16,8 @@ const Hero = () => {
 
       {/* Left Div */}
       <div className='w-full md:w-3/5'>
-        <h1 className='font-inter font-black text-4xl sm:text-5xl'>Elevating Businesses Through Innovative Web Experiences</h1>
-        <p className='text-xl text-secondary font-poppins  sm:leading-8 mt-2'>Empower your business through our innovative web development expertise. Our custom solutions are carefully designed to enhance user experiences and cultivate long-lasting customer relationships. Elevate your digital footprint, unlock avenues of growth, and attain tangible milestones in today's dynamic and competitive business environment.</p>
+        <h1 className='font-inter font-black text-4xl sm:text-5xl'>Driving Digital Innovation with Full-Stack Expertise</h1>
+        <p className='text-xl text-secondary font-poppins  sm:leading-8 mt-2'>Elevate Your Team with My Expertise in Web Development. My custom solutions are meticulously crafted to optimize user experiences and foster enduring connections. Empower your projects with my comprehensive skills in frontend and backend development, including proficiency in the MERN stack. Let's collaborate to enhance your team's capabilities, achieve milestones, and thrive in the ever-evolving landscape of technology.</p>
         <a href="#contact"><Button text="Elevate Your Brand"/></a>
 
         <div className='flex text-white mt-5 items-center flex-col md:flex-row'>
@@ -27,7 +27,7 @@ const Hero = () => {
             <motion.img src={pic3} whileHover={{scale:0.8}}  alt="Aron" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4' loading='lazy'/>
             <motion.img src={pic4} whileHover={{scale:0.8}}  alt="Finch" className='h-[50px] w-[50px] rounded-full border-solid border-2 border-primary -ml-4' loading='lazy'/>
           </div>
-          <p className='text-md font-semibold md:w-[220px] leading-5 ms-2 text-center md:text-left font-poppins'>"Trusted by Businesses Across the World"</p>
+          <p className='text-md font-semibold md:w-[220px] leading-5 ms-2 text-center md:text-left font-poppins'>"Trusted by Clients Across the World"</p>
         </div>
       </div>
 

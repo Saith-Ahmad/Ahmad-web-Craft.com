@@ -11,7 +11,7 @@ const Choose = () => {
         <div className='relative'>
             <div className='choose-overlay opacity-20'></div>
             <div className='mx-auto container px-5 md:px-10 mt-10 h-[450px] overflow-hidden overflow-y-visible pt-10'>
-            <h2 className='text-3xl md:text-4xl font-inter font-black'>Why Choose Us?</h2>
+            <h2 className='text-3xl md:text-4xl font-inter font-black'>Why Choose Me?</h2>
             <div className='h-[4px] w-[100px] bg-primary ms-3  mb-4'></div>
             {
                 choose.map((item, index) => (

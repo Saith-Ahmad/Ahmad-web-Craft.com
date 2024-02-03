@@ -1,8 +1,9 @@
 import development from "../assets/development.png"
 import woo_commerce from "../assets/woo-commerce.png"
-import seo from "../assets/seo.png"
+import backend from "../assets/backend.png"
 import ui_ux from "../assets/ui-ux.png"
 import frontend from "../assets/frontend.png"
+import wordpress from "../assets/wordpress.png"
 
 
 import client1 from "../assets/client1.jpg"
@@ -15,7 +16,7 @@ import youtube from "../assets/youtube.jpg"
 import netflix from "../assets/netflix.jpg"
 import banking from "../assets/banking.jpg"
 import estate from "../assets/estate.jpg"
-import chat from "../assets/chatapp.png"
+import expense from "../assets/expense.png"
 
 export const navLinks = [
     {
@@ -34,10 +35,6 @@ export const navLinks = [
       id: "contact",
       title: "Contact",
     },
-    {
-      id: "blog",
-      title: "Blog",
-    },
   ];
 
 
@@ -47,62 +44,61 @@ export const navLinks = [
     {
       icon : development,
       title : "Web Development",
-      description : "Unlock your digital potential with our expert web development services. We craft responsive, intuitive websites that elevate your brand and engage your audience effectively."
+      description : "Unlock your digital potential with my expert web development skills. I specialize in crafting responsive, intuitive websites that elevate your brand and engage your audience effectively."
     },
     {
       icon : frontend,
-      title : "Frontend Development",
-      description : "Transforming ideas into captivating user experiences. As a React expert, we specialize in frontend development that's seamless, innovative, and tailored to exceed your expectations."
+      title : "Frontend Experties",
+      description : "Transforming ideas into captivating user experiences. As a React expert, I specialize in frontend development that's seamless, innovative, and tailored to exceed your expectations."
+    },
+    {
+      icon : backend,
+      title : "Backend Experties",
+      description : "Unlock enhanced backend expertise with our Node.js and MERN proficiency. Streamline operations and empower your digital infrastructure effortlessly"
+    },
+    {
+      icon : wordpress,
+      title : "Wordpress Experties",
+      description : "Enhance your team with my WordPress mastery. Elevate your projects with dynamic, user-friendly websites, powered by our comprehensive expertise."
     },
     {
       icon : woo_commerce,
       title : "Woo Commerce",
-      description : "Elevate your online store with our WooCommerce expertise. We craft seamless e-commerce solutions that drive sales, engage customers, and enhance your brand's digital presence."
+      description : "Discover enhanced e-commerce solutions with our WooCommerce proficiency. Drive sales, engage customers, and boost your brand's digital presence effortlessly."
     },
     {
       icon : ui_ux,
       title : "UI/UX Design",
-      description : "Experience design redefined. Our UI/UX services blend artistry and functionality, creating elegant interfaces that deliver exceptional user journeys and elevate your brand's digital identity."
+      description : "Experience design redefined. My UI/UX services blend artistry and functionality, creating elegant interfaces that deliver exceptional user journeys and elevate your brand's digital identity."
     },
-    {
-      icon : seo,
-      title : "SEO Services",
-      description : "Unlock your online potential with our SEO expertise. We navigate algorithms, optimize content, and secure higher rankings, driving organic traffic and ensuring your brand shines in the digital spotlight."
-    },
-    {
-      icon : development,
-      title : "Digital Marketing",
-      description : "Experience the power of our digital marketing process. We craft compelling campaigns, harness SEO magic, and leverage social media wizardry to expand your reach, captivate audiences, and spark business growth."
-    },
+    
 
   ]
-
 
 
   export const choose = [
     {
-      name : "Cutting-Edge Expertise",
-      description : "Our team doesn't follow trends; we set them. With our mastery of the latest web technologies and innovative approaches, we'll create a digital presence that stands out and stays ahead."
-    },
-    
-    {
-      name : "Powerful Sales Generation",
-      description : "Our team doesn't follow trends; we set them. With our mastery of the latest web technologies and innovative approaches, we'll create a digital presence that stands out and stays aheadWe don't just build websites; we craft digital sales engines. Our solutions are geared to convert visitors into customers, giving your business an undeniable edge in the competitive online landscape.."
+      name: "Cutting-Edge Expert",
+      description: "My mastery of the latest web technologies and innovative approaches sets me apart. With a track record of creating standout digital presences, I'm ready to bring exceptional value to your team."
     },
     {
-      name : "Powerful Sales Generation",
-      description : "Our team doesn't follow trends; we set them. With our mastery of the latest web technologies and innovative approaches, we'll create a digital presence that stands out and stays aheadWe don't just build websites; we craft digital sales engines. Our solutions are geared to convert visitors into customers, giving your business an undeniable edge in the competitive online landscape.."
+      name: "Affordable Excellence Provider",
+      description: "Elevating your projects doesn't have to break the bank. I offer premium web development services at prices that make sense for your bottom line, ensuring maximum value for every dollar invested in your team's success."
     },
     {
-      name : "Affordable Excellence",
-      description : "Elevating your business doesn't have to break the bank. We offer premium web development services at prices that make sense for your bottom line, ensuring maximum value for every dollar invested."
+      name: "Client Satisfaction Expert",
+      description: "My success lies in the satisfaction of my clients. I have a proven track record of delivering exceptional web solutions that meet and exceed client expectations. Don't just take my word for it - my client reviews and recommendations speak for themselves."
     },
     {
-      name : "Client Satisfaction",
-      description : " Our success lies in the satisfaction of our clients. We have a proven track record of delivering exceptional web solutions that meet and exceed client expectations. Don't just take our word for it - our client reviews and recommendations speak for themselves."
+      name: "Innovative Problem Solver",
+      description: "I thrive on solving complex challenges with creative solutions. With my analytical mindset and technical expertise, I tackle problems head-on, delivering innovative solutions that drive your projects forward."
     },
-  ]
-
+    {
+      name: "Sales Generation Specialist",
+      description: "I don't follow trends; I set them. With my mastery of the latest web technologies and innovative approaches, I'll craft a digital presence that stands out and stays ahead. My focus is on crafting digital sales engines, converting visitors into customers, and giving your team an undeniable edge in the competitive online landscape."
+    },
+  ];
+  
 
 
 
@@ -155,12 +151,12 @@ export const navLinks = [
       link : "https://reactjs-real-estate.netlify.app/"
     },
     {
-      title : "Chat App",
-      icon : chat,
-      link : "https://lama-chat.netlify.app/"
+      title : "Expense Tracker",
+      icon : expense,
+      link : "https://talented-ruby-suit.cyclic.app/"
     },
     {
-      title : "Youtube Lite",
+      title : "Youtube UI",
       icon : youtube,
       link : "https://youtube-lite-saith-ahmad.netlify.app/"
     },
@@ -183,10 +179,6 @@ export const navLinks = [
     {
       name : "Contact",
       id : "contact"
-    },
-    {
-      name : "Blog",
-      id : "blog"
     },
   ]
 
