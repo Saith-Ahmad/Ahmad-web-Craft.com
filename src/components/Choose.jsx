@@ -6,6 +6,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+  
+
 const Choose = () => {
     return (
         <div className='relative'>
@@ -15,7 +17,7 @@ const Choose = () => {
             <div className='h-[4px] w-[100px] bg-primary ms-3  mb-4'></div>
             {
                 choose.map((item, index) => (
-                    <Accordion key={index} sx={{background: "rgba(255, 255, 255, 0.1)", backdropFilter:"blur(10px)"}}>
+                    <Accordion key={index} sx={{fontFamily: 'Poppins, sans-serif', background: "rgba(255, 255, 255, 0.1)", backdropFilter:"blur(10px)"}}>
                         <AccordionSummary
                             sx={{color:"white"}}
                             expandIcon={<ExpandMoreIcon  sx={{color:'#019EBF'}}/>}

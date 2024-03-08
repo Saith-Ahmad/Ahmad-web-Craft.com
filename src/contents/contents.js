@@ -146,9 +146,9 @@ export const navLinks = [
       link : "https://banking-webapp-with-react-js.netlify.app/"
     },
     {
-      title : "Real-Estate Website",
+      title : "Ecommerce Solutions",
       icon : estate,
-      link : "https://reactjs-real-estate.netlify.app/"
+      link : "https://skiniify.com/"
     },
     {
       title : "Expense Tracker",
