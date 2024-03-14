@@ -190,7 +190,7 @@ export const navLinks = [
     },
     {
       name : "Linkedin",
-      url : "https://www.linkedin.com/in/muhammad-ahmad-578954230/",
+      url : "https://www.linkedin.com/in/muhammad-ahmad13/",
     },
     {
       name : "Twitter",
